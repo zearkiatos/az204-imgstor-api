@@ -9,3 +9,19 @@ This is an API to practice how to build application on Azure ☁, it is part of 
 # Project diagram
 
 ![Diagrama+del+lab](https://github.com/user-attachments/assets/70d9f183-586c-4e76-a893-34c0024154d1)
+
+# Api Methods
+
+## GetImages
+
+```sh
+curl --location 'https://az204-imgstor-api.azurewebsites.net/'
+```
+
+## Response example
+
+```json
+[
+    "https://imgstorstorage.blob.core.windows.net/images/burger.jpg?sv=2021-06-08&spr=https&se=2025-06-15T00%3A58%3A14Z&sr=b&sp=r&sig=K48p4yhsbUbYpz%2FPijIi2yeHdcVHpLGyiLLXBDLYL2c%3D"
+]
+```
