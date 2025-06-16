@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "4b939740-d6ec-425b-b4bc-87126fba680c",
+		"name": "imgstor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1347256"
+	},
+	"item": [
+		{
+			"name": "getImages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://az204-imgstor-api.azurewebsites.net/",
+					"protocol": "https",
+					"host": [
+						"az204-imgstor-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
